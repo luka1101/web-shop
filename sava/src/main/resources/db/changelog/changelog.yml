@@ -13,3 +13,24 @@ databaseChangeLog:
         - sqlFile:
             encoding: UTF-8
             path: db/changelog/003_delete_table_test.sql
+  - changeSet:
+      id: 003
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/004_create_table_BaseEntity.sql
+  - changeSet:
+      id: 004
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/005_create_table_Address.sql
+  - changeSet:
+      id: 005
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/006_create_table_PayPalAccount.sql
