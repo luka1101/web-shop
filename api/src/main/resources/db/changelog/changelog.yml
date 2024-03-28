@@ -13,3 +13,17 @@ databaseChangeLog:
         - sqlFile:
             encoding: UTF-8
             path: db/changelog/003_drop_table_test.sql
+  - changeSet:
+      id: 003
+      author: byLD
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/004_create_basic_entity.sql
+  - changeSet:
+      id: 004
+      author: byLD
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/005_create_pay_pal_account_entity.sql
