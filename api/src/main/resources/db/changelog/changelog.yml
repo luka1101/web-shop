@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001
+      author: byLD
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/002_create_table_test.sql
