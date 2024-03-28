@@ -6,3 +6,10 @@ databaseChangeLog:
         - sqlFile:
             encoding: UTF-8
             path: db/changelog/002_create_table_test.sql
+  - changeSet:
+      id: 002
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/003_delete_table_test.sql
