@@ -6,6 +6,5 @@ CREATE TABLE PayPalAccount (
        city VARCHAR(255),
        postalCode INT,
        street VARCHAR(255),
-       user VARCHAR(255),
-       FOREIGN KEY (user) REFERENCES User(username)
+       user VARCHAR(255)
 );

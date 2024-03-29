@@ -1,0 +1,5 @@
+ALTER TABLE PayPalAccount
+DROP COLUMN user;
+
+ALTER TABLE PayPalAccount
+CHANGE COLUMN username user VARCHAR(255);

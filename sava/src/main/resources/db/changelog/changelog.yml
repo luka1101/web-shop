@@ -34,3 +34,53 @@ databaseChangeLog:
         - sqlFile:
             encoding: UTF-8
             path: db/changelog/006_create_table_PayPalAccount.sql
+  - changeSet:
+      id: 006
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/007_create_table_User.sql
+  - changeSet:
+      id: 007
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/008_alter_table_PayPalAccount.sql
+  - changeSet:
+      id: 008
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/009_alter_tables_PayPalAccount_User.sql
+  - changeSet:
+      id: 009
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/010_create_tables_User_PayPalAccount.sql
+  - changeSet:
+      id: 010
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/011_create_table_ShoppingCart.sql
+  - changeSet:
+      id: 011
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/012_create_table_Item.sql
+  - changeSet:
+      id: 012
+      author: bySA
+      changes:
+        - sqlFile:
+            encoding: UTF-8
+            path: db/changelog/013_create_tables_Product_Category.sql
+
